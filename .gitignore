@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+*.egg-info/
+.eggs/
+
+# Data directories (large files)
+data/dataset*/
+data/combined/
+data/holdout/
+data/nih_dataset/
+*.tar.gz
+*.gz
+
+# Model checkpoints (can be large)
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Logs
+logs/
+*.log
+
+# TensorBoard
+runs/
+events.out.tfevents.*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Evaluation results (optional - you may want to keep these)
+evaluation_results/
+*.png
+*.jpg
+*.jpeg
+
+# Temporary files
+*.tmp
+*.temp
+

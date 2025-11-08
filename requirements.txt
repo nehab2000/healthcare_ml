@@ -1,0 +1,31 @@
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+timm>=0.9.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+Pillow>=10.0.0
+albumentations>=1.3.0
+opencv-python>=4.8.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0
+tensorboard>=2.13.0
+
+# Dataset Download
+kagglehub>=0.2.0  # For downloading Kaggle datasets
+
+# Optional: For better performance
+# accelerate>=0.20.0  # For faster training with transformers
+
