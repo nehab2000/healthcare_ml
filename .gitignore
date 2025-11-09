@@ -14,10 +14,6 @@ dist/
 .eggs/
 
 # Data directories (large files)
-data/dataset*/
-data/combined/
-data/holdout/
-data/nih_dataset/
 *.tar.gz
 *.gz
 
