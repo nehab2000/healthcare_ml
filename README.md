@@ -431,6 +431,3 @@ If you encounter issues:
 
 **Happy Training! 🚀**
 =======
-# Group_Project_Pneumonia_Detection
-For MIE1517 - Intro to Deep Learning group project
->>>>>>> c9b4e784443da123a54b78cde2ab3d13016708d5
