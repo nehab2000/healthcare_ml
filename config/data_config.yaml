@@ -1,0 +1,36 @@
+data:
+  # Paths to your datasets
+  dataset1_path: "data/dataset1"
+  dataset2_path: "data/dataset2"
+  dataset3_holdout_path: "data/dataset3_holdout"
+  
+  # Output directories
+  combined_output_dir: "data/combined"
+  holdout_output_dir: "data/holdout"
+  
+  # Split ratios (must sum to 1.0)
+  train_ratio: 0.7
+  val_ratio: 0.15
+  test_ratio: 0.15
+  
+  # Random seed for reproducibility
+  random_seed: 42
+  
+  # Image verification settings
+  verification:
+    target_size: [224, 224]  # [width, height]
+    allowed_formats: ["JPEG", "PNG"]
+    require_grayscale: true
+    min_file_size: 1000  # bytes
+    max_file_size: 10485760  # 10MB in bytes
+    auto_resize: true
+    auto_convert_format: true
+    remove_invalid: false  # Set to true to automatically remove invalid images
+    use_perceptual_hashing: false  # Use perceptual hash for similar image detection
+  
+  # Image settings for training
+  image_size: 224
+  batch_size: 32
+  num_workers: 4
+
+
